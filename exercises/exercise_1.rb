@@ -3,16 +3,6 @@ require_relative "../setup"
 puts "Exercise 1"
 puts "----------"
 
-# SCHEMA FOR STORE
-# Column     |            Type             |                      Modifiers
-# ----------------+-----------------------------+-----------------------------------------------------
-#  id             | integer                     | not null default nextval('stores_id_seq'::regclass)
-#  name           | character varying           |
-#  annual_revenue | integer                     |
-#  mens_apparel   | boolean                     |
-#  womens_apparel | boolean                     |
-#  created_at     | timestamp without time zone | not null
-#  updated_at     | timestamp without time zone | not null
 
 # Your code goes below here ...
 

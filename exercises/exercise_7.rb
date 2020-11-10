@@ -10,3 +10,20 @@ puts "Exercise 7"
 puts "----------"
 
 # Your code goes here ...
+
+# Error code
+@test_1 = Store.new({
+  name: 'Burnaby',
+  annual_revenue: -111,
+  mens_apparel: true,
+  womens_apparel: true
+})
+@test_2 = Store.new({
+  name: 'Burnaby',
+  annual_revenue: 3.14159,
+  mens_apparel: true,
+  womens_apparel: true
+})
+
+@test_1.save
+@test_2.save
